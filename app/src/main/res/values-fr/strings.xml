@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WifiBot Controller</string>
+    <string name="textViewMainSelectIP">Entrez l\'adresse IP du WifiBot</string>
+    <string name="editTextMainGetIPHint">192.168.1.XXX</string>
+    <string name="buttonMainConnexion">Connexion</string>
+    <string name="textViewChoiceSelect">Choisissez le  mode de contrôle du WifiBot</string>
+    <string name="buttonChoiceVirtualJoystick">Joystick Virtuel</string>
+    <string name="buttonChoiceGyroscop">Gyroscope</string>
+
+    <!-- Toast messages -->
+    <string name="toastMainWifiDisable">Veuillez activer votre Wifi</string>
+    <string name="toastMainConnectionFailed">Le WifiBot n\'est pas accessible avec l\'adresse IP donnée</string>
+    <string name="toastChoiceSensorUnavailable">Désolé, vous ne pouvez pas utiliser ce mode car les capteurs ne sont pas disponibles
+    sur votre appareil</string>
+
+    <!-- Error messages -->
+    <string name="exceptionSenderReach">Impossible de se connecter au WifiBot </string>
+    <string name="exceptionSenderInitConnect">Impossible d\'initialiser la connexion avec le WifiBot</string>
+</resources>

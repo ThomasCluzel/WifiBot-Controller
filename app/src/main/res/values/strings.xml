@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WifiBot Controller</string>
+    <string name="textViewMainSelectIP">Select the ip address of your WifiBot</string>
+    <string name="editTextMainGetIPHint">192.168.1.XXX</string>
+    <string name="buttonMainConnexion">Connect</string>
+    <string name="textViewChoiceSelect">Select the WifiBot control mode</string>
+    <string name="buttonChoiceVirtualJoystick">Virtual joystick</string>
+    <string name="buttonChoiceGyroscop">Gyroscopic</string>
+
+    <!-- Toast messages -->
+    <string name="toastMainWifiDisable">Please turn on your Wifi</string>
+    <string name="toastMainConnectionFailed">Cannot reach the bot with the given ip address</string>
+    <string name="toastChoiceSensorUnavailable">Sorry, you cannot use this mode because your sensors are unavailable</string>
+
+    <!-- Error messages -->
+    <string name="exceptionSenderReach">Failed to reach the WifiBot</string>
+    <string name="exceptionSenderInitConnect">Failed to initialize connection to the WifiBot</string>
+</resources>

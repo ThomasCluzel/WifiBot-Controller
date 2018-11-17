@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/textViewChoiceSelect"
+        android:text="@string/textViewChoiceSelect"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:lines="2"
+        android:layout_margin="@dimen/activity_choice_margin" />
+
+    <Button
+        android:text="@string/buttonChoiceVirtualJoystick"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/buttonChoiceVirtualJoystick"
+        android:layout_margin="@dimen/activity_choice_margin"
+        android:textSize="@dimen/activity_choice_button_text_size"
+        android:background="@drawable/button_pressed_background"/>
+
+    <Button
+        android:text="@string/buttonChoiceGyroscop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/buttonChoiceGyroscop"
+        android:layout_margin="@dimen/activity_choice_margin"
+        android:textSize="@dimen/activity_choice_button_text_size"
+        android:background="@drawable/button_pressed_background"/>
+
+
+</LinearLayout>
